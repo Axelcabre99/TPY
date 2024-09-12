@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+
+.colorfondo {
+    width: 100vw;
+    height: 18vh;
+    color: #303134;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box; /* incluimos el padding y border en el ancho total */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /*menu a la derecha */
+    padding: 2em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* menu a la derecha */
+    padding: 2em;
+}
+
+.brand {
+    margin-top: -10px;
+    flex-grow: 1; /* espacio del logo */
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px; /* espacio entre los botones */
+    margin-top: 20px; /* espacio desde arriba */
+    justify-content: flex-end; /* alineascion a la derecha*/
+}
+.logomenu {
+    float: left;
+    margin-right: 20px;
+    width: 250px;
+    height: auto;
+    margin-top: 10px;   /* margen superior */
+    margin-left: 10px;  /* margen izquierdo */
+}
+
+.menu li {
+    margin-right: 0; /* quita el margen derecho para los botones se separen mas */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 20px;
+}
+
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent; /* quita el fondo gris */
+}
+
+.menu li a:hover {
+    color: #f85515; /* cambia el color del texto al pasar el mouse encima */
+}
+
+.bienvenida {
+    padding: 20px; /* espacio entre el contenido y el borde */
+    margin-top: 0; /* quita el margen superior para que quede justo debajo del menu */
+    height: 82vh; 
+    display: flex; 
+    flex-direction: column; /* establece la direccion del contenido en columna */
+    justify-content: left; /* alinea el contenido */
+    align-items: left; /* alinea el contenido*/
+    background-image: url(../img/puerto.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.text-bienvenida h3 {
+    font-size: 30px;    
+    margin-bottom: 10px; /* espacio entre el titulo y el texto */
+    text-align: left;
+    color: #ffffff;
+    margin-top: 15px; 
+}
+
+.bienvenida h2 {
+    font-size: 25px; 
+    margin-bottom: 20px; 
+    color:#ffffff 
+    
+}
+
+.text-bienvenida p {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+.marca {
+    position: absolute; 
+    bottom: 0; 
+    width: 100vw; 
+    background-color: #2563EB; 
+    color: #FFFFFF; 
+    text-align: center; 
+    padding: 10px;
+    clear: both; 
+    box-sizing: border-box; 
+}
+

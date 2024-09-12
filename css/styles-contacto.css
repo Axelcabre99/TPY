@@ -1,0 +1,89 @@
+.general {
+    background-color: #2563EB;
+    height: 100vh;
+    width: 100vw;
+}
+
+.titulo {
+    text-align: center;
+    color: #ffff;
+    padding-top: 20px;
+}
+
+.content h3 {
+    color: #ffff;
+    padding-left: 40px;
+    line-height: 1.4;
+    margin-bottom: 15px;    
+}
+
+.content p {
+    color: #ffff;
+    padding-left: 70px;
+    line-height: 1.4;
+    margin-bottom: 15px;    
+}
+
+.content a {
+    text-decoration: none;
+    color: #ffff;
+
+}
+
+.idfor {
+    color: #ffff;
+    padding-left: 40px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 1px auto; 
+    display: block; 
+}
+
+#contactForm h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #000000; 
+    }
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #f1ecec;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#statusMessage {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.conta {
+    position: relative; 
+    bottom: 0; 
+    width: 100vw;
+    background-color: #2563EB; 
+    color: #FFFFFF; 
+    text-align: center; 
+    padding: 20px; 
+    clear: both; 
+    box-sizing: border-box; 
+}

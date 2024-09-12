@@ -1,0 +1,75 @@
+body {
+    overflow: hidden; /* para que contenido no se desborde fuera de la pantalla */
+}
+
+.sobre-nosotros {
+    background-color: #2563EB;
+    width: 100%;
+    height: 82vh;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.quien {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1; 
+
+}
+
+.quien h2 {
+    font-size: 50px;
+}
+
+
+.sobre-nosotros h2 {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen-container {
+    flex-basis: 30%; /* establece el ancho de la imagen del contenedor */
+    margin-right: 20px; /* agrega espacio entre la imagen y el texto */
+}
+
+.imagen-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto {
+    flex: 1; /* ocupa el espacio disponible */
+    margin-left: 20px; /* agrega espacio entre la imagen y el texto */
+    margin-left: 2cm; /* margen izquierdo  */
+    margin-right: 2cm; /* margen derecho  */
+}
+
+.texto p {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+} 
+
+
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }

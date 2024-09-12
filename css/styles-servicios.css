@@ -1,0 +1,60 @@
+
+.service h2 {
+    text-align: center;
+    margin-bottom: 1cm;
+    color: #ffffff;
+    padding-top: 1cm;
+}
+
+.service{
+  background-color: #2563EB;
+  height: 82vh;
+  width: 100%;
+}
+
+
+.kin-box {
+    width: 300px; 
+    border: 2px solid #ddd;
+    padding: 40px;
+    box-shadow: 0 0 10px #000000;
+    background-color: #F3F5F8;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin-left: 50px;
+  }
+  
+  .kin-image {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover;
+  
+  }
+  
+  .kin-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    gap: 50px; /* espacio entre los cuadros de los servicios*/
+    justify-content: center; /* alinea los elementos al inicio */
+}
+
+.kin-box {
+    width: 350px; /* ajuste del tamaño */
+    height: 400px;
+}
+
+.kin-image {
+    width: 100%; 
+}
+
+.kin-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 15px #000000;
+}
