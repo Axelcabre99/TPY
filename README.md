@@ -21,14 +21,18 @@ A form for visitors to communicate, along with direct links to other forms of co
 -Simple Structure: It uses a clear approach with HTML, CSS and JavaScript, keeping the code clean and easy to understand.<br>
 -Basic Interactivity: Some dynamic functionality is implemented with JavaScript, such as navigation effects or form validation.
 <br> <br>
-<b>Installation and Use</b>
-<br>
-Clone the repository: <br>
 
 ### Installation and use
+<b>1- Clone the repository:</b>
    ```
-    cd $HOME
-    cd Prem
-    git pull
-    python3.11 menu.py
+   https://github.com/Axelcabre99/TeLoTraigoParaguay.git
   ```
+<b>2- Open the main file:</b>
+
+Navigate to the `index.html` file and open it directly in a web browser.<br> <br>
+<b>3- Editing (Optional):</b>
+
+The code is commented to facilitate modification and customization as needed.<br>
+
+<b>Authors</b> <br> <br>
+Axel Cabrera - Project development and design.
